@@ -28,4 +28,15 @@ function runTests(testType) {
 
 
 runTests("smoke");
- 
+
+let number=10; 
+function isOddorEven(number){
+    if(number%2==0){
+        return "even";
+    }else{
+        console.log("the number is odd:",number);
+        return "odd";
+    }
+
+}
+console.log(isOddorEven(number));
